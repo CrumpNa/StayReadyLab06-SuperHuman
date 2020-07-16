@@ -1,10 +1,11 @@
+package SuperHero;
 import java.time.LocalDate;
 
 //import org.junit.Assert;
 // import org.junit.Test;
 
 import Superpowers.Human;
-import Superpowers.SuperHuman;
+//import Superpowers.SuperHuman;
 
 public class Main {
 
@@ -15,15 +16,18 @@ public class Main {
     LocalDate dateOfBirth = LocalDate.now(); // today's date
     String gender = "Male";
     String occupation = "Photographer";
-     Human h=new Human(name,id,dateOfBirth,gender,occupation); 
+    Human h=new Human(name,id,dateOfBirth,gender,occupation);
+
     String alias = "Spiderman";
-    String ability = "Pew, pew!";
+    Affiliation.affiliation aff = Affiliation.affiliation.GOOD;
+    String ability ="Web Powers";
+    String power="Pew, pew!";
     String phrase = "Just your Friendly Neighborhood Spiderman";
-    Affiliation affiliation = GOOD;
-    String power="Web Powers"; 
-    SuperHuman sh= new SuperHuman(name,id,dateOfBirth,gender,occupation, alias,ability,phrase,affilation,power); 
+    SuperHuman sh= new SuperHuman(alias, aff, ability, power, phrase);
+
+    /*
     System.out.print(sh.getAlias()); 
     System.out.print(sh.getAbility()); 
-    System.out.print(h.getName());
+    System.out.print(h.getName());*/
     }
 }

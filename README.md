@@ -41,7 +41,7 @@ Fields should be *private*, getters and setters should be created for setting an
 
 ## Part 2
 
-In this section you will create a *SuperHuman* class that will subclass the *Human* and add the following:
+In this section you will create a *SuperHero.SuperHuman* class that will subclass the *Human* and add the following:
 
 **Fields**
 
@@ -56,6 +56,6 @@ In this section you will create a *SuperHuman* class that will subclass the *Hum
 
 ## Part 3
 
-1. Create a *main* method that instantiates a few *Human* and *SuperHuman* classes
+1. Create a *main* method that instantiates a few *Human* and *SuperHero.SuperHuman* classes
 2. Demonstrate calling methods from the *Human* instances
-3. Demonstrate calling methods inherited from *Human* on your *SuperHuman* instances
+3. Demonstrate calling methods inherited from *Human* on your *SuperHero.SuperHuman* instances
